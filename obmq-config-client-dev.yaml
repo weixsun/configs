@@ -1,0 +1,21 @@
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
+        exclude: 'shutdown'
+obmqlabs: 
+  config: 
+    client: 
+      author: 'Weix Sun'
+      info: 'Config Client For OBMQ Labs'
+      version: 7
+server:
+  port: 9090
+spring:
+  application:
+    name: 'obmq-config-client'
