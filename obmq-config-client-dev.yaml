@@ -13,7 +13,7 @@ obmqlabs:
     client: 
       author: 'Weix Sun'
       info: 'Config Client For OBMQ Labs'
-      version: 7
+      version: 8
 server:
   port: 9090
 spring:
